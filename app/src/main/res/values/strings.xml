@@ -1,0 +1,19 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Capitals Quiz</string>
+    <!-- Main Activity -->
+    <string name="string_main_activity_title">Capitals Quiz</string>
+    <string name="string_main_activity_btn_single_player">Single Player</string>
+    <string name="string_main_activity_btn_multiplayer">Multiplayer</string>
+    <string name="string_main_activity_btn_settings">Settings</string>
+    <!-- Game Activity -->
+    <string name="string_game_activity_tv_points">Points : </string>
+    <string name="string_game_activity_tv_round">Round </string>
+    <!-- Score Activity -->
+    <string name="string_score_activity_title">Score Board</string>
+    <string name="string_score_activity_tv_score">Score : </string>
+    <string name="string_score_activity_tv_highest_score">Highest Score : </string>
+    <string name="string_score_activity_tv_correct">Correct Answers : </string>
+    <string name="string_score_activity_btn_play_again">Play Again</string>
+
+</resources>
