@@ -52,8 +52,8 @@ public class ScoreActivity extends AppCompatActivity {
         }
 
         //set Score on View
-        binding.tvScore.setText(getString(R.string.string_score_activity_tv_score) +  " " + points);
-        binding.tvHighestScore.setText(getString(R.string.string_score_activity_tv_highest_score) +  " " + highestScore);
+        binding.tvScorePoints.setText(" " + points);
+        binding.tvHighestScorePoints.setText(" " + highestScore);
 
         //Button Play Again on Click
         binding.buttonPlayAgain.setOnClickListener(new View.OnClickListener() {

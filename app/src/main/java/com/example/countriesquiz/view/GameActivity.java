@@ -133,11 +133,16 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         stopQuestionTimer();
         stopAudioTimer();
         disableButtons();
-        //Get Answer from User
-        selectedOption = getAnswer(v);
-        //Check Answer Correct
-        checkAnswer(selectedOption, correctButton, v);
-        calculatePoints(isCorrectAnswer, gameRound);
+
+        //Get Answer
+        if(Integer.parseInt(binding.tvCounter.getText().toString()) > 0){
+            //Get Answer from User
+            selectedOption = getAnswer(v);
+            //Check Answer Correct
+            checkAnswer(selectedOption, correctButton, v);
+            calculatePoints(isCorrectAnswer, gameRound);
+        }
+
         //Change Question
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -925,7 +930,6 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
                 if(millisUntilFinished < timerAnswerSeconds){
                     binding.tvCounter.setText(String.valueOf(millisUntilFinished/1000));
                 }
-
             }
             @Override
             public void onFinish() {

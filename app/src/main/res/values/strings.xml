@@ -12,7 +12,7 @@
     <!-- Score Activity -->
     <string name="string_score_activity_title">Score Board</string>
     <string name="string_score_activity_tv_score">Score : </string>
-    <string name="string_score_activity_tv_highest_score">Highest Score : </string>
+    <string name="string_score_activity_tv_highest_score">Highest Score</string>
     <string name="string_score_activity_tv_correct">Correct Answers : </string>
     <string name="string_score_activity_btn_play_again">Play Again</string>
 
