@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="@dimen/_225sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:orientation="vertical"
+        android:elevation="@dimen/_6sdp"
+        android:background="@drawable/background_round_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/string_main_activity_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_24ssp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        android:elevation="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+
+        <Button
+            android:id="@+id/buttonSinglePlayer"
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/background_btn_corner"
+            android:text="@string/string_main_activity_btn_single_player"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_16ssp" />
+
+        <Button
+            android:id="@+id/buttonMultiPlayers"
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:background="@drawable/background_btn_corner"
+            android:text="@string/string_main_activity_btn_multiplayer"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_16ssp" />
+
+        <Button
+            android:id="@+id/buttonSettings"
+            android:layout_width="@dimen/_225sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:background="@drawable/background_btn_corner"
+            android:text="@string/string_main_activity_btn_settings"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_16ssp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

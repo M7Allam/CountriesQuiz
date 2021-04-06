@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Capitals Quiz</string>
+    <!-- Main Activity -->
+    <string name="string_main_activity_title">عواصم العالم</string>
+    <string name="string_main_activity_btn_single_player">لاعب منفرد</string>
+    <string name="string_main_activity_btn_multiplayer">لاعب متعدد</string>
+    <string name="string_main_activity_btn_settings">الاعدادات</string>
+    <!-- Game Activity -->
+    <string name="string_game_activity_tv_points">النقاط : </string>
+    <string name="string_game_activity_tv_round">الجولة </string>
+    <!-- Score Activity -->
+    <string name="string_score_activity_title">النتيجة</string>
+    <string name="string_score_activity_tv_score">النقاط : </string>
+    <string name="string_score_activity_tv_highest_score">أعلى نتيجة</string>
+    <string name="string_score_activity_tv_correct">الاجابات الصحيحة : </string>
+    <string name="string_score_activity_btn_play_again">إلعب مرة أخرى</string>
+
+</resources>

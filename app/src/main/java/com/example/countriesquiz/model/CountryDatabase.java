@@ -7,10 +7,11 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 public class CountryDatabase extends SQLiteAssetHelper {
 
     //Database Info
-    public static final String DB_NAME = "Country_database.db";
+    public static final String DB_NAME = "Country_database_v2.db";
     public static final int DB_VERSION = 1;
     //Country Table
     public static final String COUNTRY_TABLE_NAME = "Country";
+    public static final String COUNTRY_TABLE_NAME_AR = "CountryAR";
     public static final String COUNTRY_COL_COUNTRY_ID = "Country_ID";
     public static final String COUNTRY_COL_COUNTRY_NAME = "Country_Name";
     public static final String COUNTRY_COL_CAPITAL = "Country_Capital";

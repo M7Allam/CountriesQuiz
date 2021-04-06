@@ -223,7 +223,11 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
+
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -259,7 +263,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -294,7 +301,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -329,7 +339,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -365,7 +378,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -400,7 +416,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -435,7 +454,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -471,7 +493,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -506,7 +531,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{
@@ -540,7 +568,10 @@ public class GameActivity extends AppCompatActivity implements Game, View.OnClic
         //Wrong Answer 3
         randomWrongCapitalSameCountryName = randomIndex(1,6);
         if(randomWrongCapitalSameCountryName == 3 && !correctCapital.contains(countryName.substring(0,4))){
-            wrongCapitalSameCountryName = countryName + " City";
+            if(MainActivity.language.equals("ar")){
+                wrongCapitalSameCountryName = "مدينة " + countryName ;
+            }else
+                wrongCapitalSameCountryName = countryName + " City";
             wrong3Capital = wrongCapitalSameCountryName;
             wrongIndex3 = -1;
         }else{

@@ -46,6 +46,7 @@
                 android:textSize="@dimen/_18ssp"
                 android:textStyle="bold" />
 
+
         </LinearLayout>
 
         <TextView
@@ -137,7 +138,7 @@
         android:id="@+id/tv_counter"
         android:layout_width="@dimen/_75sdp"
         android:layout_height="@dimen/_75sdp"
-        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_6sdp"
         android:background="@drawable/background_btn_corner"
         android:backgroundTint="@color/color_button_background_tint"
@@ -146,6 +147,6 @@
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

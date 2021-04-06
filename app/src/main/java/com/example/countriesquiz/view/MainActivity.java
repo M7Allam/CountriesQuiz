@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
     private MediaPlayer mediaBackground;
+    public static String language;
 
 
     @Override
@@ -26,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
         //Layout inflate
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        //Language
+        String text = binding.buttonSinglePlayer.getText().toString();
+        if(text.contains("ل")){
+            language = "ar";
+        }else{
+            language = "en";
+        }
 
         //Buttons Click
         binding.buttonSinglePlayer.setOnClickListener(new View.OnClickListener() {
